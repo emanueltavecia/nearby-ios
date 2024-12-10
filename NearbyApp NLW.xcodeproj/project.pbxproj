@@ -11,7 +11,17 @@
 		8802569C2D07BB1800CC6528 /* NearbyFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802569B2D07BB1800CC6528 /* NearbyFlowController.swift */; };
 		880256A02D07BD7000CC6528 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802569F2D07BD7000CC6528 /* SplashViewController.swift */; };
 		880256A22D07BDC500CC6528 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880256A12D07BDC500CC6528 /* SplashView.swift */; };
-		880256A42D07C33700CC6528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880256A32D07C33700CC6528 /* Assets.xcassets */; };
+		880256A62D07CAB700CC6528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880256A52D07CAB700CC6528 /* Assets.xcassets */; };
+		883D2BE52D0880BA006AADD6 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE42D0880BA006AADD6 /* TipsView.swift */; };
+		883D2BE82D0884AC006AADD6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE72D0884AC006AADD6 /* WelcomeView.swift */; };
+		883D2BEA2D088CAF006AADD6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */; };
+		883D2BED2D088D6C006AADD6 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BEC2D088D6C006AADD6 /* UIViewController+ext.swift */; };
+		883D2BEF2D08CB33006AADD6 /* SplashFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BEE2D08CB33006AADD6 /* SplashFlowDelegate.swift */; };
+		883D2BF12D08CFC8006AADD6 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BF02D08CFC8006AADD6 /* Typography.swift */; };
+		883D2BF42D08DA94006AADD6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BF32D08DA94006AADD6 /* HomeView.swift */; };
+		883D2BF62D08DAA5006AADD6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BF52D08DAA5006AADD6 /* HomeViewController.swift */; };
+		883D2BF92D08F6FF006AADD6 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BF82D08F6FF006AADD6 /* PlaceTableViewCell.swift */; };
+		883D2BFC2D08FD69006AADD6 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BFB2D08FD69006AADD6 /* PlaceModel.swift */; };
 		A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD822CD93BFE001A762A /* AppDelegate.swift */; };
 		A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -21,7 +31,17 @@
 		8802569B2D07BB1800CC6528 /* NearbyFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFlowController.swift; sourceTree = "<group>"; };
 		8802569F2D07BD7000CC6528 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		880256A12D07BDC500CC6528 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		880256A32D07C33700CC6528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Library/CloudStorage/OneDrive-Personal/Downloads/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		880256A52D07CAB700CC6528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../../Library/CloudStorage/OneDrive-Personal/Downloads/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		883D2BE42D0880BA006AADD6 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		883D2BE72D0884AC006AADD6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		883D2BEC2D088D6C006AADD6 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		883D2BEE2D08CB33006AADD6 /* SplashFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFlowDelegate.swift; sourceTree = "<group>"; };
+		883D2BF02D08CFC8006AADD6 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		883D2BF32D08DA94006AADD6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		883D2BF52D08DAA5006AADD6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		883D2BF82D08F6FF006AADD6 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		883D2BFB2D08FD69006AADD6 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		A9E7FD7F2CD93BFE001A762A /* NearbyApp NLW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NearbyApp NLW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E7FD822CD93BFE001A762A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +72,7 @@
 			children = (
 				8802569F2D07BD7000CC6528 /* SplashViewController.swift */,
 				880256A12D07BDC500CC6528 /* SplashView.swift */,
+				883D2BEE2D08CB33006AADD6 /* SplashFlowDelegate.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -59,9 +80,62 @@
 		8802569E2D07BD4800CC6528 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				883D2BF22D08DA70006AADD6 /* HomeView */,
+				883D2BE62D08849F006AADD6 /* WelcomeView */,
 				8802569D2D07BD3700CC6528 /* Splash */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		883D2BE32D08809B006AADD6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				883D2BE42D0880BA006AADD6 /* TipsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		883D2BE62D08849F006AADD6 /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				883D2BE72D0884AC006AADD6 /* WelcomeView.swift */,
+				883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */,
+			);
+			path = WelcomeView;
+			sourceTree = "<group>";
+		};
+		883D2BEB2D088D4B006AADD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				883D2BEC2D088D6C006AADD6 /* UIViewController+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		883D2BF22D08DA70006AADD6 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				883D2BF72D08F6ED006AADD6 /* TableViewCell */,
+				883D2BF32D08DA94006AADD6 /* HomeView.swift */,
+				883D2BF52D08DAA5006AADD6 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		883D2BF72D08F6ED006AADD6 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				883D2BF82D08F6FF006AADD6 /* PlaceTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		883D2BFA2D08FD53006AADD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				883D2BFB2D08FD69006AADD6 /* PlaceModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		A9E7FD762CD93BFE001A762A = {
@@ -104,7 +178,7 @@
 		A9E7FD972CD93C1C001A762A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				880256A32D07C33700CC6528 /* Assets.xcassets */,
+				880256A52D07CAB700CC6528 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -112,6 +186,9 @@
 		A9E7FD982CD93C7F001A762A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				883D2BFA2D08FD53006AADD6 /* Models */,
+				883D2BEB2D088D4B006AADD6 /* Extensions */,
+				883D2BE32D08809B006AADD6 /* Components */,
 				8802569E2D07BD4800CC6528 /* Scenes */,
 				8802569A2D07BB0700CC6528 /* Coordinator */,
 			);
@@ -122,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				880256982D07BAA800CC6528 /* Colors.swift */,
+				883D2BF02D08CFC8006AADD6 /* Typography.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -184,7 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880256A42D07C33700CC6528 /* Assets.xcassets in Resources */,
+				880256A62D07CAB700CC6528 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +273,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883D2BEA2D088CAF006AADD6 /* WelcomeViewController.swift in Sources */,
+				883D2BFC2D08FD69006AADD6 /* PlaceModel.swift in Sources */,
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
+				883D2BF42D08DA94006AADD6 /* HomeView.swift in Sources */,
 				880256992D07BAA800CC6528 /* Colors.swift in Sources */,
 				8802569C2D07BB1800CC6528 /* NearbyFlowController.swift in Sources */,
+				883D2BF62D08DAA5006AADD6 /* HomeViewController.swift in Sources */,
+				883D2BE82D0884AC006AADD6 /* WelcomeView.swift in Sources */,
 				A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */,
+				883D2BE52D0880BA006AADD6 /* TipsView.swift in Sources */,
 				880256A02D07BD7000CC6528 /* SplashViewController.swift in Sources */,
+				883D2BED2D088D6C006AADD6 /* UIViewController+ext.swift in Sources */,
+				883D2BEF2D08CB33006AADD6 /* SplashFlowDelegate.swift in Sources */,
+				883D2BF12D08CFC8006AADD6 /* Typography.swift in Sources */,
 				880256A22D07BDC500CC6528 /* SplashView.swift in Sources */,
+				883D2BF92D08F6FF006AADD6 /* PlaceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
