@@ -12,6 +12,9 @@
 		880256A02D07BD7000CC6528 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8802569F2D07BD7000CC6528 /* SplashViewController.swift */; };
 		880256A22D07BDC500CC6528 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880256A12D07BDC500CC6528 /* SplashView.swift */; };
 		880256A62D07CAB700CC6528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880256A52D07CAB700CC6528 /* Assets.xcassets */; };
+		881318F92D0BC39B00A66274 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881318F82D0BC39B00A66274 /* Category.swift */; };
+		881318FC2D0BC3FA00A66274 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881318FB2D0BC3FA00A66274 /* HomeViewModel.swift */; };
+		881318FE2D0BCEDD00A66274 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881318FD2D0BCEDD00A66274 /* PlaceAnnotation.swift */; };
 		883D2BE52D0880BA006AADD6 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE42D0880BA006AADD6 /* TipsView.swift */; };
 		883D2BE82D0884AC006AADD6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE72D0884AC006AADD6 /* WelcomeView.swift */; };
 		883D2BEA2D088CAF006AADD6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */; };
@@ -32,6 +35,9 @@
 		8802569F2D07BD7000CC6528 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		880256A12D07BDC500CC6528 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		880256A52D07CAB700CC6528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../../Library/CloudStorage/OneDrive-Personal/Downloads/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		881318F82D0BC39B00A66274 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		881318FB2D0BC3FA00A66274 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		881318FD2D0BCEDD00A66274 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
 		883D2BE42D0880BA006AADD6 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		883D2BE72D0884AC006AADD6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +93,14 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
+		881318FA2D0BC3D500A66274 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				881318FB2D0BC3FA00A66274 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		883D2BE32D08809B006AADD6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +129,7 @@
 		883D2BF22D08DA70006AADD6 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				881318FA2D0BC3D500A66274 /* ViewModel */,
 				883D2BF72D08F6ED006AADD6 /* TableViewCell */,
 				883D2BF32D08DA94006AADD6 /* HomeView.swift */,
 				883D2BF52D08DAA5006AADD6 /* HomeViewController.swift */,
@@ -134,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				883D2BFB2D08FD69006AADD6 /* PlaceModel.swift */,
+				881318F82D0BC39B00A66274 /* Category.swift */,
+				881318FD2D0BCEDD00A66274 /* PlaceAnnotation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				883D2BEA2D088CAF006AADD6 /* WelcomeViewController.swift in Sources */,
+				881318FC2D0BC3FA00A66274 /* HomeViewModel.swift in Sources */,
 				883D2BFC2D08FD69006AADD6 /* PlaceModel.swift in Sources */,
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
 				883D2BF42D08DA94006AADD6 /* HomeView.swift in Sources */,
@@ -284,7 +302,9 @@
 				A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */,
 				883D2BE52D0880BA006AADD6 /* TipsView.swift in Sources */,
 				880256A02D07BD7000CC6528 /* SplashViewController.swift in Sources */,
+				881318F92D0BC39B00A66274 /* Category.swift in Sources */,
 				883D2BED2D088D6C006AADD6 /* UIViewController+ext.swift in Sources */,
+				881318FE2D0BCEDD00A66274 /* PlaceAnnotation.swift in Sources */,
 				883D2BEF2D08CB33006AADD6 /* SplashFlowDelegate.swift in Sources */,
 				883D2BF12D08CFC8006AADD6 /* Typography.swift in Sources */,
 				880256A22D07BDC500CC6528 /* SplashView.swift in Sources */,
