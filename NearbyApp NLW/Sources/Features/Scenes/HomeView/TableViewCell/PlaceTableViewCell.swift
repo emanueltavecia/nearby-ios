@@ -22,33 +22,32 @@ class PlaceTableViewCell: UITableViewCell {
     
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.font = Typography.titleSM
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = Typography.titleSM
         return label
     }()
     
     let descriptionLabel: UILabel = {
-        let label = UILabel()
-        label.font = Typography.textXS
-        label.numberOfLines = 0
-        label.textColor = Colors.gray500
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
+       let label = UILabel()
+       label.font = Typography.textXS
+       label.numberOfLines = 0
+       label.textColor = Colors.gray500
+       label.translatesAutoresizingMaskIntoConstraints = false
+       return label
+   }()
     
     let ticketIcon: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleAspectFit
-        imageView.tintColor = Colors.redBase
-        imageView.image = UIImage(named: "ticket")
         imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.contentMode = .scaleAspectFit
+        imageView.image = UIImage(named: "ticket")
+        imageView.tintColor = Colors.redBase
         return imageView
     }()
     
     let ticketLabel: UILabel = {
         let label = UILabel()
         label.font = Typography.textXS
-        label.numberOfLines = 0
         label.textColor = Colors.gray400
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -78,15 +77,15 @@ class PlaceTableViewCell: UITableViewCell {
         containerView.addSubview(titleLabel)
         containerView.addSubview(descriptionLabel)
         containerView.addSubview(ticketIcon)
-        containerView.addSubview(ticketIcon)
+        containerView.addSubview(ticketLabel)
         
         setupConstraints()
     }
     
     private func setupConstraints() {
         NSLayoutConstraint.activate([
-            containerView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),
-            containerView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 8),
+            containerView.topAnchor.constraint(equalTo: topAnchor, constant: 8),
+            containerView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 8),
             containerView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -8),
             containerView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8),
             
@@ -101,7 +100,7 @@ class PlaceTableViewCell: UITableViewCell {
             titleLabel.leadingAnchor.constraint(equalTo: itemImageView.trailingAnchor, constant: 16),
             titleLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             
-            descriptionLabel.topAnchor.constraint(equalTo: titleLabel.topAnchor, constant: 4),
+            descriptionLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 4),
             descriptionLabel.leadingAnchor.constraint(equalTo: itemImageView.trailingAnchor, constant: 16),
             descriptionLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -8),
             

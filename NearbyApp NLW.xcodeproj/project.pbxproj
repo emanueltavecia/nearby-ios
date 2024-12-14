@@ -15,6 +15,8 @@
 		881318F92D0BC39B00A66274 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881318F82D0BC39B00A66274 /* Category.swift */; };
 		881318FC2D0BC3FA00A66274 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881318FB2D0BC3FA00A66274 /* HomeViewModel.swift */; };
 		881318FE2D0BCEDD00A66274 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881318FD2D0BCEDD00A66274 /* PlaceAnnotation.swift */; };
+		8825CA112D0D0DAE00D1B7B6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825CA102D0D0DAE00D1B7B6 /* DetailsViewController.swift */; };
+		8825CA132D0D1A3000D1B7B6 /* WelcomeFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8825CA122D0D1A3000D1B7B6 /* WelcomeFlowDelegate.swift */; };
 		883D2BE52D0880BA006AADD6 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE42D0880BA006AADD6 /* TipsView.swift */; };
 		883D2BE82D0884AC006AADD6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE72D0884AC006AADD6 /* WelcomeView.swift */; };
 		883D2BEA2D088CAF006AADD6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */; };
@@ -38,6 +40,8 @@
 		881318F82D0BC39B00A66274 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		881318FB2D0BC3FA00A66274 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		881318FD2D0BCEDD00A66274 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		8825CA102D0D0DAE00D1B7B6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		8825CA122D0D1A3000D1B7B6 /* WelcomeFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFlowDelegate.swift; sourceTree = "<group>"; };
 		883D2BE42D0880BA006AADD6 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		883D2BE72D0884AC006AADD6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		8802569E2D07BD4800CC6528 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8825CA0F2D0D0D9900D1B7B6 /* Detail */,
 				883D2BF22D08DA70006AADD6 /* HomeView */,
 				883D2BE62D08849F006AADD6 /* WelcomeView */,
 				8802569D2D07BD3700CC6528 /* Splash */,
@@ -101,6 +106,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		8825CA0F2D0D0D9900D1B7B6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8825CA102D0D0DAE00D1B7B6 /* DetailsViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		883D2BE32D08809B006AADD6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 			children = (
 				883D2BE72D0884AC006AADD6 /* WelcomeView.swift */,
 				883D2BE92D088CAF006AADD6 /* WelcomeViewController.swift */,
+				8825CA122D0D1A3000D1B7B6 /* WelcomeFlowDelegate.swift */,
 			);
 			path = WelcomeView;
 			sourceTree = "<group>";
@@ -294,6 +308,7 @@
 				881318FC2D0BC3FA00A66274 /* HomeViewModel.swift in Sources */,
 				883D2BFC2D08FD69006AADD6 /* PlaceModel.swift in Sources */,
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
+				8825CA132D0D1A3000D1B7B6 /* WelcomeFlowDelegate.swift in Sources */,
 				883D2BF42D08DA94006AADD6 /* HomeView.swift in Sources */,
 				880256992D07BAA800CC6528 /* Colors.swift in Sources */,
 				8802569C2D07BB1800CC6528 /* NearbyFlowController.swift in Sources */,
@@ -309,6 +324,7 @@
 				883D2BF12D08CFC8006AADD6 /* Typography.swift in Sources */,
 				880256A22D07BDC500CC6528 /* SplashView.swift in Sources */,
 				883D2BF92D08F6FF006AADD6 /* PlaceTableViewCell.swift in Sources */,
+				8825CA112D0D0DAE00D1B7B6 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
