@@ -25,9 +25,9 @@ The development of this project aims to learn the following concepts:
 
 ## Views
 
-| Splash screen | Welcome | Home | Place Details |
-| ----- | ----- | ----- | ----- |
-| ![Splash screen screenshot](./.github/splashscreen.png) | ![Splash screen screenshot](./.github/welcome.png) | ![Splash screen screenshot](./.github/home.png) | ![Splash screen screenshot](./.github/details.png) |
+| Splash screen                                           | Welcome                                           | Home                                        | Place Details                                      |
+| ------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------- | -------------------------------------------------- |
+| ![Splash screen screenshot](./.github/splashscreen.png) | ![Welcome view screenshot](./.github/welcome.png) | ![Home view screenshot](./.github/home.png) | ![Place details screenshot](./.github/details.png) |
 
 ## 🔗 Project Links
 
